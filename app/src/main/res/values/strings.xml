@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Resistencia Pulpera</string>
+    <string name="start">Al turrón!!</string>
+    <string name="instrucciones">Instrucciones</string>
+    <string name="instrucciones_titulo">Lo que necesitas saber</string>
+    <string name="instrucciones_txt">Tras años de maltrato al ecosistema, los ancestrales dueños del planeta se levantan para proteger la tierra. Como último descendiente de una larga estirpe de cocineros de sushi, usa tus habilidades para oponerte a este cambio.</string>
+    <string name="ok">OK</string>
+    <string name="letrero_pulpo">Letrero de un pulpo</string>
+    <string name="barra_restaurante">La barra de un restaurante con clientes</string>
+    <string name="reintentar">Reintentar</string>
+    <string name="salir">Salir</string>
+    <string name="menu_inicio">Menu de Inicio</string>
+    <string name="msg_final_v">Enhorabuena, victoria para los humanos, pero derrota para el planeta.</string>
+    <string name="msg_final_d">Victoria para los seres marinos, una nueva era de paz y progreso para todo el planeta</string>
+    <string name="msg_final_e">EMPATE? Como que empate?, todo se resolverá en Resistencia Pulpera 2</string>
+</resources>

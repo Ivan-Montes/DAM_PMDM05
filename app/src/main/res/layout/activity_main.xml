@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mar_profundo"
+    android:translationZ="10dp"
+    tools:context=".InicioActivity"
+    >
+
+    <ImageView
+        android:id="@+id/ivPulpi2"
+        android:layout_width="92dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="316dp"
+        android:layout_marginBottom="424dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/calamar_retrato" />
+
+    <ImageView
+        android:id="@+id/ivBarraRestaurante"
+        android:layout_width="225dp"
+        android:layout_height="309dp"
+        android:layout_marginTop="148dp"
+        android:contentDescription="@string/barra_restaurante"
+        android:translationZ="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/restaurantbusiness5" />
+
+    <Button
+        android:id="@+id/btStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/start"
+        android:textColor="@color/black"
+        android:translationZ="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivBarraRestaurante" />
+
+    <Button
+        android:id="@+id/btInstrucciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/instrucciones"
+        android:textColor="@color/black"
+        android:translationZ="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btStart"
+        app:layout_constraintVertical_bias="0.117" />
+
+    <ImageView
+        android:id="@+id/ivLetreroPulpo"
+        android:layout_width="228dp"
+        android:layout_height="155dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/letrero_pulpo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/calamar_letrero_triunfo" />
+
+    <ImageView
+        android:id="@+id/ivPulpi"
+        android:layout_width="92dp"
+        android:layout_height="97dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/calamar_retrato" />
+</androidx.constraintlayout.widget.ConstraintLayout>
