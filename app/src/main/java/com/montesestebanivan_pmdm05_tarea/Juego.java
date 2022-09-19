@@ -327,7 +327,7 @@ public class Juego extends SurfaceView implements SurfaceHolder.Callback, Surfac
         framesHastaNuevoEnemigo--;
 
         listaPulpoAdversarios
-                .forEach( a -> a.meMuevo());
+                .forEach(Adversario::meMuevo);
 
         //Comprobamos si hay impacto contra pulpos
         List<Kunai> listaKunaisLanzadosParaEliminar = new ArrayList<>();
